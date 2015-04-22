@@ -21,4 +21,7 @@ $(window).load(function () {
 	$.when(dif1,dif2)
 	.done( function(){$('input#id_search').quicksearch('table tbody tr');} )
 	//これだけでは、ダメ見たい$('input#id_search').quicksearch('table tbody tr');
+	
+   //アラート表示
+   alert("info.jsヨリ読み込み終了");
 });
