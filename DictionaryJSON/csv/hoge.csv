@@ -1,0 +1,4 @@
+id;name;age
+integer;string;integer
+1;Mike;20
+2;Kate;18
